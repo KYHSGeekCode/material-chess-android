@@ -41,3 +41,4 @@ modules/odk.collect/android/*
 *.project
 *.classpath
 .settings/
+app/.cxx
