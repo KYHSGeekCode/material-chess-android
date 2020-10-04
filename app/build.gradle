@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    buildToolsVersion '30.0.2'
 
     defaultConfig {
         applicationId "com.nemesis.materialchess"
-        minSdkVersion 11
-        targetSdkVersion 30
+        minSdkVersion 14
+        targetSdkVersion 28
 
         ndk {
             moduleName "jni"
@@ -36,6 +36,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:28.0.0'
-    compile 'com.github.amlcurran.showcaseview:library:5.4.3'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+//    implementation 'com.github.amlcurran.showcaseview:library:5.4.3'
 }
